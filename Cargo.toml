@@ -1,0 +1,10 @@
+[package]
+name = "iyr"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+clap = { version = "4.5.53", features = ["derive"] }
+crc32fast = "1.5.0"
+notify = "8.2.0"
+notify-debouncer-full = "0.6.0"
